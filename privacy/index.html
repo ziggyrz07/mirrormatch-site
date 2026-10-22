@@ -37,7 +37,7 @@
 <main>
 <header>
   <h1>MirrorMatch Privacy Policy</h1>
-  <p class="updated">Last updated October 20, 2026</p>
+  <p class="updated">Last updated October 22, 2026</p>
 </header>
 <h2 id="our-privacy-promises">Our privacy promises</h2>
 <p>MirrorMatch never sells your information, never shares it for advertising, and deletes your face data within 30 days of when you leave. This policy is a draft: have a privacy lawyer review it, and fill in the items in <mark class="ph">[BRACKETS]</mark>, before it goes live.</p>
@@ -140,6 +140,7 @@
 <li>let any partner use it to train their own systems</li>
 </ul>
 <p>We disclose it only with your consent, or when a law, a valid warrant or a subpoena requires it.</p>
+<p><strong>Our face-comparison service.</strong> With your consent, we send each new profile photo and your verification selfie to Amazon Web Services (Amazon Rekognition), which compares the faces to confirm the photo is you and sends back a similarity score. Amazon acts only on our instructions, does not keep the images or the face measurements after the comparison, and may not use them for anything else. Photos it can't confirm are checked by a person on our safety team instead.</p>
 <p><strong>How long we keep it.</strong> We destroy your face template and verification selfie at the first of these:</p>
 <ul>
 <li>30 days after you close your account or withdraw consent</li>
@@ -180,7 +181,7 @@
 </tr>
 <tr>
 <td>Photo screening</td>
-<td>Photos, checked automatically for AI images, heavy filters, unclear faces, old capture dates, and copies of photos already rejected</td>
+<td>Photos, checked automatically for AI images (by Sightengine), unclear faces, old capture dates, copies of photos already rejected, and whether they match your verification selfie (by Amazon Rekognition, with your face-data consent); photos that can't be confirmed are checked by a person</td>
 </tr>
 <tr>
 <td>Safety</td>
@@ -243,7 +244,7 @@
 <h2 id="7-who-we-share-information-with">7. Who we share information with</h2>
 <p>We share information only with the groups below, and never for money or advertising.</p>
 <ul>
-<li><strong>Service providers</strong> that host, store, secure, verify, or support the app (<mark class="ph">[LIST VENDORS, e.g. cloud hosting, ID verification, SMS]</mark>). They work under contracts that allow use only for MirrorMatch, require deletion when done, and ban selling or reusing the data.</li>
+<li><strong>Service providers</strong> that host, store, secure, verify, or support the app (Supabase for hosting and storage, Amazon Web Services for comparing photos with your verification selfie, Sightengine for detecting AI-generated photos, Google Workspace for email, Expo for app delivery, and Apple for app distribution; <mark class="ph">[ADD ID VERIFICATION AND SMS PROVIDERS WHEN CHOSEN]</mark>). They work under contracts that allow use only for MirrorMatch, require deletion when done, and ban selling or reusing the data.</li>
 <li><strong>Apple and Google</strong> to process purchases. They handle payment details under their own policies.</li>
 <li><strong>Safety and the law:</strong> when a valid court order, subpoena or warrant requires it, or to prevent imminent physical harm. We also report apparent child sexual exploitation to the National Center for Missing &amp; Exploited Children, as federal law requires (section 9).</li>
 <li><strong>A buyer of the company</strong>, if MirrorMatch is sold or merged. The buyer must keep every promise in this policy, or ask your permission first. We'll notify you at least 30 days before a transfer.</li>
